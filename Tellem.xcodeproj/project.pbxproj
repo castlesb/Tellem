@@ -24,6 +24,13 @@
 		2CFE401D1C46FF1E0003A101 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CFE401C1C46FF1E0003A101 /* FBSDKShareKit.framework */; };
 		2CFE401E1C46FF1E0003A101 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CFE401C1C46FF1E0003A101 /* FBSDKShareKit.framework */; };
 		2CFE401F1C46FF1E0003A101 /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CFE401C1C46FF1E0003A101 /* FBSDKShareKit.framework */; };
+		2CFE40211C4DA1EB0003A101 /* AWSCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CFE40201C4DA1EB0003A101 /* AWSCore.framework */; };
+		2CFE40231C4DA21A0003A101 /* AWSDynamoDB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CFE40221C4DA21A0003A101 /* AWSDynamoDB.framework */; };
+		2CFE40251C4DA2550003A101 /* AWSS3.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CFE40241C4DA2550003A101 /* AWSS3.framework */; };
+		2CFE40271C4DA2780003A101 /* AWSSNS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CFE40261C4DA2780003A101 /* AWSSNS.framework */; };
+		2CFE40291C4DA3250003A101 /* AWSCognito.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CFE40281C4DA3250003A101 /* AWSCognito.framework */; };
+		2CFE402D1C4DA86A0003A101 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFE402C1C4DA86A0003A101 /* Constants.swift */; };
+		2CFE40311C4DAED90003A101 /* AmazonClientManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFE40301C4DAED90003A101 /* AmazonClientManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +68,14 @@
 		2CFE40141C46FF0B0003A101 /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		2CFE40181C46FF150003A101 /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
 		2CFE401C1C46FF1E0003A101 /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKShareKit.framework; sourceTree = "<group>"; };
+		2CFE40201C4DA1EB0003A101 /* AWSCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSCore.framework; path = "../../Downloads/aws-ios-sdk-2.3.3/frameworks/AWSCore.framework"; sourceTree = "<group>"; };
+		2CFE40221C4DA21A0003A101 /* AWSDynamoDB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSDynamoDB.framework; path = "../../Downloads/aws-ios-sdk-2.3.3/frameworks/AWSDynamoDB.framework"; sourceTree = "<group>"; };
+		2CFE40241C4DA2550003A101 /* AWSS3.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSS3.framework; path = "../../Downloads/aws-ios-sdk-2.3.3/frameworks/AWSS3.framework"; sourceTree = "<group>"; };
+		2CFE40261C4DA2780003A101 /* AWSSNS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSSNS.framework; path = "../../Downloads/aws-ios-sdk-2.3.3/frameworks/AWSSNS.framework"; sourceTree = "<group>"; };
+		2CFE40281C4DA3250003A101 /* AWSCognito.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AWSCognito.framework; path = "../../Downloads/aws-ios-sdk-2.3.3/frameworks/extras/AWSCognito.framework"; sourceTree = "<group>"; };
+		2CFE402C1C4DA86A0003A101 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		2CFE40301C4DAED90003A101 /* AmazonClientManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AmazonClientManager.swift; path = ../AmazonClientManager.swift; sourceTree = "<group>"; };
+		2CFE40321C4DB4950003A101 /* Tellem-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Tellem-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +83,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CFE40291C4DA3250003A101 /* AWSCognito.framework in Frameworks */,
+				2CFE40271C4DA2780003A101 /* AWSSNS.framework in Frameworks */,
+				2CFE40251C4DA2550003A101 /* AWSS3.framework in Frameworks */,
+				2CFE40231C4DA21A0003A101 /* AWSDynamoDB.framework in Frameworks */,
+				2CFE40211C4DA1EB0003A101 /* AWSCore.framework in Frameworks */,
 				2CFE40191C46FF150003A101 /* FBSDKLoginKit.framework in Frameworks */,
 				2CFE40151C46FF0B0003A101 /* FBSDKCoreKit.framework in Frameworks */,
 				2CFE401D1C46FF1E0003A101 /* FBSDKShareKit.framework in Frameworks */,
@@ -100,6 +120,11 @@
 		2CFE3FD71C46FE6D0003A101 = {
 			isa = PBXGroup;
 			children = (
+				2CFE40281C4DA3250003A101 /* AWSCognito.framework */,
+				2CFE40261C4DA2780003A101 /* AWSSNS.framework */,
+				2CFE40241C4DA2550003A101 /* AWSS3.framework */,
+				2CFE40221C4DA21A0003A101 /* AWSDynamoDB.framework */,
+				2CFE40201C4DA1EB0003A101 /* AWSCore.framework */,
 				2CFE401C1C46FF1E0003A101 /* FBSDKShareKit.framework */,
 				2CFE40181C46FF150003A101 /* FBSDKLoginKit.framework */,
 				2CFE40141C46FF0B0003A101 /* FBSDKCoreKit.framework */,
@@ -123,6 +148,8 @@
 		2CFE3FE21C46FE6D0003A101 /* Tellem */ = {
 			isa = PBXGroup;
 			children = (
+				2CFE40321C4DB4950003A101 /* Tellem-Bridging-Header.h */,
+				2CFE40301C4DAED90003A101 /* AmazonClientManager.swift */,
 				2CFE3FE31C46FE6D0003A101 /* AppDelegate.swift */,
 				2CFE3FE51C46FE6D0003A101 /* ViewController.swift */,
 				2CFE3FE71C46FE6D0003A101 /* Main.storyboard */,
@@ -130,6 +157,7 @@
 				2CFE3FEF1C46FE6D0003A101 /* LaunchScreen.storyboard */,
 				2CFE3FF21C46FE6D0003A101 /* Info.plist */,
 				2CFE3FEA1C46FE6D0003A101 /* Tellem.xcdatamodeld */,
+				2CFE402C1C4DA86A0003A101 /* Constants.swift */,
 			);
 			path = Tellem;
 			sourceTree = "<group>";
@@ -285,7 +313,9 @@
 			files = (
 				2CFE3FE61C46FE6D0003A101 /* ViewController.swift in Sources */,
 				2CFE3FE41C46FE6D0003A101 /* AppDelegate.swift in Sources */,
+				2CFE40311C4DAED90003A101 /* AmazonClientManager.swift in Sources */,
 				2CFE3FEC1C46FE6D0003A101 /* Tellem.xcdatamodeld in Sources */,
+				2CFE402D1C4DA86A0003A101 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +465,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.briancastles.Tellem;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Tellem-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -450,6 +481,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.briancastles.Tellem;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Tellem-Bridging-Header.h";
 			};
 			name = Release;
 		};
@@ -536,6 +568,7 @@
 				2CFE400D1C46FE6D0003A101 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2CFE400E1C46FE6D0003A101 /* Build configuration list for PBXNativeTarget "TellemTests" */ = {
 			isa = XCConfigurationList;
@@ -544,6 +577,7 @@
 				2CFE40101C46FE6D0003A101 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		2CFE40111C46FE6D0003A101 /* Build configuration list for PBXNativeTarget "TellemUITests" */ = {
 			isa = XCConfigurationList;
@@ -552,6 +586,7 @@
 				2CFE40131C46FE6D0003A101 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
