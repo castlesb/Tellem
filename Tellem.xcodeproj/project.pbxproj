@@ -31,6 +31,9 @@
 		2CFE40291C4DA3250003A101 /* AWSCognito.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CFE40281C4DA3250003A101 /* AWSCognito.framework */; };
 		2CFE402D1C4DA86A0003A101 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFE402C1C4DA86A0003A101 /* Constants.swift */; };
 		2CFE40311C4DAED90003A101 /* AmazonClientManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CFE40301C4DAED90003A101 /* AmazonClientManager.swift */; };
+		2CFE40351C4DBDB40003A101 /* Crypto.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CFE40341C4DBDB40003A101 /* Crypto.m */; };
+		2CFE403C1C4DBEA60003A101 /* DeveloperAuthenticatedIdentityProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CFE403B1C4DBEA60003A101 /* DeveloperAuthenticatedIdentityProvider.m */; };
+		2CFE403F1C4DBEF80003A101 /* DeveloperAuthenticationClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CFE403E1C4DBEF80003A101 /* DeveloperAuthenticationClient.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -76,6 +79,12 @@
 		2CFE402C1C4DA86A0003A101 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		2CFE40301C4DAED90003A101 /* AmazonClientManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AmazonClientManager.swift; path = ../AmazonClientManager.swift; sourceTree = "<group>"; };
 		2CFE40321C4DB4950003A101 /* Tellem-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Tellem-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
+		2CFE40331C4DBD7B0003A101 /* Crypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Crypto.h; path = ../Crypto.h; sourceTree = "<group>"; };
+		2CFE40341C4DBDB40003A101 /* Crypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Crypto.m; path = ../Crypto.m; sourceTree = "<group>"; };
+		2CFE403A1C4DBE7E0003A101 /* DeveloperAuthenticatedIdentityProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DeveloperAuthenticatedIdentityProvider.h; path = ../DeveloperAuthenticatedIdentityProvider.h; sourceTree = "<group>"; };
+		2CFE403B1C4DBEA60003A101 /* DeveloperAuthenticatedIdentityProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DeveloperAuthenticatedIdentityProvider.m; path = ../DeveloperAuthenticatedIdentityProvider.m; sourceTree = "<group>"; };
+		2CFE403D1C4DBED10003A101 /* DeveloperAuthenticationClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DeveloperAuthenticationClient.h; path = ../DeveloperAuthenticationClient.h; sourceTree = "<group>"; };
+		2CFE403E1C4DBEF80003A101 /* DeveloperAuthenticationClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DeveloperAuthenticationClient.m; path = ../DeveloperAuthenticationClient.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -148,7 +157,13 @@
 		2CFE3FE21C46FE6D0003A101 /* Tellem */ = {
 			isa = PBXGroup;
 			children = (
+				2CFE40341C4DBDB40003A101 /* Crypto.m */,
+				2CFE40331C4DBD7B0003A101 /* Crypto.h */,
 				2CFE40321C4DB4950003A101 /* Tellem-Bridging-Header.h */,
+				2CFE403E1C4DBEF80003A101 /* DeveloperAuthenticationClient.m */,
+				2CFE403D1C4DBED10003A101 /* DeveloperAuthenticationClient.h */,
+				2CFE403B1C4DBEA60003A101 /* DeveloperAuthenticatedIdentityProvider.m */,
+				2CFE403A1C4DBE7E0003A101 /* DeveloperAuthenticatedIdentityProvider.h */,
 				2CFE40301C4DAED90003A101 /* AmazonClientManager.swift */,
 				2CFE3FE31C46FE6D0003A101 /* AppDelegate.swift */,
 				2CFE3FE51C46FE6D0003A101 /* ViewController.swift */,
@@ -315,7 +330,10 @@
 				2CFE3FE41C46FE6D0003A101 /* AppDelegate.swift in Sources */,
 				2CFE40311C4DAED90003A101 /* AmazonClientManager.swift in Sources */,
 				2CFE3FEC1C46FE6D0003A101 /* Tellem.xcdatamodeld in Sources */,
+				2CFE40351C4DBDB40003A101 /* Crypto.m in Sources */,
+				2CFE403C1C4DBEA60003A101 /* DeveloperAuthenticatedIdentityProvider.m in Sources */,
 				2CFE402D1C4DA86A0003A101 /* Constants.swift in Sources */,
+				2CFE403F1C4DBEF80003A101 /* DeveloperAuthenticationClient.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

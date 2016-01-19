@@ -28,8 +28,6 @@ class AmazonClientManager : NSObject, AIAuthenticationDelegate {
     var keyChain: UICKeyChainStore
     var completionHandler: AWSContinuationBlock?
     var fbLoginManager: FBSDKLoginManager?
-    var gppSignIn: GPPSignIn?
-    var googleAuth: GTMOAuth2Authentication?
     var credentialsProvider: AWSCognitoCredentialsProvider?
     var devAuthClient: DeveloperAuthenticationClient?
     var loginViewController: UIViewController?
